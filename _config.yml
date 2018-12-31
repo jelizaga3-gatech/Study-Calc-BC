@@ -19,8 +19,8 @@ theme: jekyll-text-theme # Gem-based Jekyll Themes
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : # does not include hostname
+url     : https://jelizaga3-gatech.github.io/ # the base hostname & protocol for your site e.g. https://www.someone.com
+baseurl : Study-Calc-BC # does not include hostname
 title   : Your Site Title
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
@@ -28,7 +28,7 @@ description: > # this means to ignore newlines until "Language & timezone"
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
+lang: en # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
