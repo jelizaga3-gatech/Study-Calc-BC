@@ -10,12 +10,19 @@ Clone the project:
 
 `git clone https://github.com/jelizaga3-gatech/Study-Calc-BC.git`
 
+cd into project: 
 
-Run the Dockerfile 
+`cd Study-Calc-BC`
+
+Build the Docker image (or container? Pardon my ignorance but its still to me unclear what the difference is.)
+
+`docker build -t study-calc-bc .`
+
+Run the Docker image (I think if a container doesn't exist before the run command, Docker creates a container and loads the image on the newly created container.)
 
 `docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000"  study-calc-bc`
 
-A local server will startup. For example, on my server, under Server Adress, I would see the webpage by directing my web client, i.e. Google Chrome, to http://0.0.0.0:4000/.
+A local server will startup. For example, on my server, under `Server Adress:`, I would see the webpage by directing my web client, i.e. Google Chrome, to http://0.0.0.0:4000/.
 
 ```
 Configuration file: /usr/src/app/_config.yml
@@ -32,4 +39,4 @@ Configuration file: /usr/src/app/_config.yml
 
 ### Notes
 
-The resulting Docker image would depend upon  [`starefossen/github-pages:latest`](`https://github.com/Starefossen/docker-github-pages`)
+The resulting Docker image would depend upon  [`starefossen/github-pages:latest`](`https://github.com/Starefossen/docker-github-pages`). See [Dockerfile](Dockerfile) for more details.
