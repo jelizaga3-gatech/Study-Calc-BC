@@ -18,7 +18,7 @@ Build the Docker image (or container? Pardon my ignorance but its still to me un
 
 `docker build -t study-calc-bc .`
 
-Run the Docker image (I think if a container doesn't exist before the run command, Docker creates a container and loads the image on the newly created container.)
+Run the Docker image (I think if a container doesn't exist before the executing the `docker run` command, Docker creates a container and loads the image on the newly created container.)
 
 `docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000"  study-calc-bc`
 
