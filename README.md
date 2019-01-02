@@ -40,3 +40,6 @@ Configuration file: /usr/src/app/_config.yml
 ### Notes
 
 The resulting Docker image would depend upon  [`starefossen/github-pages:latest`](`https://github.com/Starefossen/docker-github-pages`). See [Dockerfile](Dockerfile) for more details.
+
+Jekyll Theme Documentation
+https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-p
